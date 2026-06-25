@@ -1,0 +1,21 @@
+# Datos (no versionamos el dataset ni los datos derivados)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+
+# Modelos 
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Entornos y editores
+.vscode/

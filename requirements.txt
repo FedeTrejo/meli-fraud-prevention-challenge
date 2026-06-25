@@ -1,0 +1,8 @@
+# Stack base de análisis. Las librerías de modelado
+# se agregan al decidir el enfoque.
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
