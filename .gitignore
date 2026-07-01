@@ -6,8 +6,11 @@ data/processed/*
 *.csv
 
 # Modelos 
+artifacts/*
+!artifacts/.gitkeep
 *.pkl
 *.joblib
+catboost_info/
 
 # Python
 __pycache__/

@@ -1,4 +1,4 @@
-# Fraud Prevention — Data Scientist Technical Challenge
+# Fraud Prevention - Data Scientist Technical Challenge
 
 Modelo de Machine Learning para predecir si una transacción es fraudulenta,
 optimizando la **ganancia** de la empresa.
@@ -16,26 +16,18 @@ Las features del dataset están anonimizadas.
 .
 ├── data/
 │   ├── raw/          # Dataset original (no versionado)
-│   └── processed/    # Datos transformados (no versionado)
-├── notebooks/        # Exploración y experimentación
-├── src/              # Código fuente reutilizable
+│   └── processed/    # Artefactos intermedios
+├── artifacts/        # Modelo final y metadatos generados
+├── notebooks/        # Flujo de análisis y modelado
+├── src/              # Código fuente reutilizable importado por los notebooks
 ├── report/           # Informe en PDF
+├── RUNBOOK.md        # Instrucciones de reproducción
 ├── requirements.txt
 └── README.md
 ```
 
-## Setup
+## Reproducibilidad
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# Unix:    source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-El dataset se ubica en `data/raw/` y no se versiona (ver `.gitignore`).
-
-## Estado
-
-> Placeholder — se completa a medida que avanza el análisis: hipótesis,
-> transformaciones, modelos, evaluación y conclusión.
+Las instrucciones completas para preparar el entorno, ubicar el dataset,
+ejecutar los notebooks y verificar los resultados están en
+[RUNBOOK.md](RUNBOOK.md).
