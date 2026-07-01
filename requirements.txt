@@ -1,8 +1,26 @@
-# Stack base de análisis. Las librerías de modelado
-# se agregan al decidir el enfoque.
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-jupyter
+# Versiones fijadas con las que se generaron los resultados del informe
+# (Python 3.13). 
+
+# Numérico y datos
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# Visualización
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Modelado de árboles, optimización e interpretabilidad 
+# xgboost y catboost usan GPU si está disponible y caen a CPU automáticamente
+# lightgbm corre en CPU.
+xgboost==3.3.0
+lightgbm==4.6.0
+catboost==1.2.10
+optuna==4.9.0
+shap==0.52.0
+tqdm==4.67.1
+
+# Entorno para ejecutar los notebooks
+jupyter==1.1.1
